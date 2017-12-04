@@ -16,11 +16,9 @@ On the workers run: 'docker swarm join --token' followed by the token supplied b
 For Part 2:
 	
 1. On the manager run: 'docker service create --replicas 5 -p 80:80 --name web nginx'
-Status can be viewed on the visualizer.
-	 
-2. The bash file for testing the CMS is in the github. The command runs in order of the index page. It will ask for input of IDs or states to change, the ids can be taken from the previous commands output. Dockerfile can be used to upload and use for creating the image.
-     
-     someimages to show part 2: https://imgur.com/a/LEwa5
+
+	
+
      
      
  
